@@ -114,6 +114,10 @@ header {
 
 }
 
+.header__container{
+    background-color: rgba(0, 0, 0, 0.6)
+}
+
 
 
 .header__social{
@@ -139,14 +143,17 @@ header {
     width: 100%;
     height: auto;
     background-image: url('../img/staff-bartender.jpg');
-    background-color: rgb(0, 4, 17);
+    background-color: rgb(0, 4, 17, 0.6);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    text-align: center;
-    padding-top: 2rem;
+   
+    
 }
 
+h2{
+    text-align: center;
+}
 .menu-container {
     max-width: 1080px;
     display: flex;
@@ -157,6 +164,7 @@ header {
   
   .menu-section {
     flex-basis: 500px;
+    text-align: start;
   }
   
   .menu-item {
@@ -168,7 +176,10 @@ header {
   
   .menu-item p {
     flex-basis: 100%;
+    text-align: start;
   }
+
+  
 
 /* footer section */
 footer {
@@ -176,7 +187,20 @@ footer {
     height: 15vh;
     padding-top: 2.5vh;
     font-size: 3rem;
-    color: black;   
+    color: black; 
+    background-color: black;  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+form{
+    width: 500px;
+    text-align: center;
+}
+.kyaz p{
+    font-size: 1.5rem;
+    
 }
 
 /* mobile media query */
